@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/ivAvatar"
+        android:layout_width="@dimen/image_dimen"
+        android:layout_height="@dimen/image_dimen" />
+
+    <TextView
+        android:id="@+id/tvFristName"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/firstname_text_height" />
+
+    <TextView
+        android:id="@+id/tvLastName"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/lastname_text_height" />
+
+    <TextView
+        android:id="@+id/tvAge"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/age_text_height" />
+
+    <TextView
+        android:id="@+id/tvPhoneNum"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/phonenum_text_height" />
+
+    <Button
+        android:id="@+id/btnLike"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/image_dimen"
+        android:gravity="center"
+        android:text="LIKE" />
+
+</LinearLayout>
